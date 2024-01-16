@@ -1,0 +1,298 @@
+/* Mulish font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 6940px;
+}
+
+/* shared styles */
+.section-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+main {
+    margin: 0px 135px;
+}
+
+.text-color {
+    color: #5A5A5D;
+    width: 530px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    border: 0;
+}
+
+/* header  */
+.icon {
+    width: 48px;
+}
+
+.color {
+    color: #FF5400;
+}
+
+.nav {
+    font-size: 2.25rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.02rem;
+    font-weight: 400;
+    color: #424247;
+}
+
+.h {
+    font-weight: 700;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0px 135px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.center h3 {
+    font-size: 4rem;
+    color: #FFF;
+    font-weight: 800;
+}
+
+.container p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF;
+    width: 676px;
+}
+
+.img {
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.text-box {
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    border: 0;
+    padding-top: 50px;
+}
+
+.Find {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Our popular Tours */
+.button {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.content {
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.content-image {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.content-element {
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.ul li {
+    padding: 10px;
+}
+
+
+.destination-text {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+
+}
+
+.destination-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+    padding: 24px 250px 48px 250px;
+}
+
+/* .destination-photo{
+    position: relative;
+} */
+/* .mal{
+    position: relative;
+    text-align: center;
+} */
+/* .maldives{
+    position: absolute;
+    color: #FFF;
+    font-size:  1.75rem; 
+    
+} */
+.destination-photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.choose-title {
+    text-align: center;
+    padding-top:100px;
+}
+
+.choose-title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 48px;
+
+}
+
+.option {
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+
+.choose-item {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+.place{
+    display: flex;
+    gap: 30px;
+   
+    padding-top: 100px;
+}
+.li{
+    color: #131318;
+font-size: 16px;
+font-weight: 700;
+padding: 10px;
+}
+.btn{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+width: 393px;
+height: 52px;
+flex-shrink: 0;
+border: 0;
+}
+.newslater-title{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 10px;
+align-items: center;
+text-align: center;
+}
+.newslater{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+   
+}
+.newslater-title h3{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.s{
+    width: 400px;
+}
+.btn-primary-travel{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+background: #FF5400;
+}
+.btn-primary-travel h3{
+    color: #FFF;
+font-size: 2rem;
+font-weight: 800;
+padding-top: -50px;
+
+}
+.btn-primary-travel p{ 
+    
+    color: #FFF;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 400;
+margin-bottom: -30px;
+}
+footer{
+    text-align: center;
+    align-items: center;
+}
