@@ -236,6 +236,10 @@ header {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+.price{
+    position: relative;
+    left: 340px;
+}
 
 .grid p {
     padding-right: 40px;
@@ -351,6 +355,10 @@ padding-bottom: 40px;
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: -30px;
+}
+/* Reviews */
+.Reviews{
+    margin-top: 100px;
 }
 
 /* footer */
@@ -522,6 +530,10 @@ footer {
     .choose-title {
         width: 550px;
     }
+    .price{
+        position: relative;
+        left: 0px;
+    }
     .Deals{
         text-align: center;
         align-items: center;
@@ -561,6 +573,10 @@ footer {
     .newslater-title {
         width: 100%;
         align-items: center;
+    }
+    .Reviews{
+        width: 600px;
+        text-align: justify;
     }
 
     footer {
