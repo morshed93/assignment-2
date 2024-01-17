@@ -240,6 +240,21 @@ header {
 .grid p {
     padding-right: 40px;
 }
+/* Deals and Discoutns */
+.Deals{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.deal p{
+padding-bottom: 40px;
+}
+.deals-image img{
+   padding-bottom: 25px;
+}
+.Deals button{
+    width: 200px;
+}
 
 /* place */
 .place {
@@ -506,6 +521,22 @@ footer {
 
     .choose-title {
         width: 550px;
+    }
+    .Deals{
+        text-align: center;
+        align-items: center;
+    }
+    .deal{
+        align-items: center;
+        text-align: center;
+        width: 550px;
+    }
+
+    .deals-image img{
+        width: 550px;
+    }
+    .Deals button{
+        margin-left: 150px;
     }
 
     .grid {
