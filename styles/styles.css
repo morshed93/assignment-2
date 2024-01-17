@@ -173,7 +173,9 @@ header {
 }
 
 /* Destination */
-
+.destination-photo img:hover{
+ transform: scale(1.1);
+}
 .destination-text {
     text-align: center;
     padding-bottom: 50px;
